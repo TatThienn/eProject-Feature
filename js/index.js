@@ -29,6 +29,8 @@ myApp.config(function ($routeProvider) {
     .when("/detail", {
       templateUrl: "./views/detail.html",
     });
+    
+    
 });
 myApp.run(function ($rootScope, $http) {
   $http.get("./data/data.json").then(function (response) {

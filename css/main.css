@@ -843,10 +843,36 @@
 
 /*blog page*/
 .blog-img{
+  display: flex;
   width: 100%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
   border: 0.1rem solid rgba(0, 0, 0, 0.7);
 }
+.blog-img:last-child img{
+ width: 320px;
+ 
+}
+.blog-detail{
+  padding: 10px 15px;
+  font-size: 17px;
+  color: rgba(206, 204, 204, 0.848);
+}
+
+.blog-detail h2{
+  color: white;
+}
+
+.blog-detail > span {
+  color: #212529;
+}
+.blog-readmore{
+  display: none;
+}
+.blog-img .image{
+  display: flex;
+  align-items: center;
+}
+
 
 
 
